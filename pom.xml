@@ -40,15 +40,15 @@
 		 <plugin>
 			<groupId>org.apache.maven.plugins</groupId>
 			<artifactId>maven-jar-plugin</artifactId>
-			<version>2.4</version>
+			<version>3.3.0</version>
 			<configuration>
-	  		<archive>
-	    	<manifest>
-				<mainClass>com.cloudpay.recruitment.Main</mainClass>
-	    	</manifest>
-	  </archive>
-	</configuration>
-    </plugin>
+	  		  <archive>
+	    		<manifest>
+				  <mainClass>com.wvillalobos.recruitment.Main</mainClass>
+	    	    </manifest>
+	  		  </archive>
+	       </configuration>
+         </plugin>
 	  </plugins>	 
 	</pluginManagement>
   </build>
