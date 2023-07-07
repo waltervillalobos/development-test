@@ -2,6 +2,15 @@
 
 The following program will compress and decompress an String Text based on RLE Algorithm.
 
+consider a string like the following one:
+
+```
+AAAAANNNMMMMYYYYuuuuUUUUaaaarWWLLLLJ888DDDDDDDDD
+```
+
+This program shortens the previous string by using RLE Algorithm and is able to restore it to the original.
+
+
 ## Requirements
 
 * Java 17 
