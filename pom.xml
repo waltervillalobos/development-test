@@ -3,7 +3,7 @@
   <groupId>com.cloudpay.recruitment</groupId>
   <artifactId>development-test</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  <name>com.cloudplay.recruitment.test</name>
+  <name>com.wvillalobos.recruitment.test</name>
   <packaging>jar</packaging>
   <description>Handles an application to encrypt and decrypt a string</description>
   <properties>

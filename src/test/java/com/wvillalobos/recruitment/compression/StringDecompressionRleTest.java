@@ -1,9 +1,10 @@
-package com.cloudpay.recruitment.compression;
+package com.wvillalobos.recruitment.compression;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import com.cloudpay.recruitment.compression.exception.InvalidFormatException;
+import com.wvillalobos.recruitment.compression.StringDecompressionRle;
+import com.wvillalobos.recruitment.compression.exception.InvalidFormatException;
 
 public class StringDecompressionRleTest {
 	

@@ -1,6 +1,6 @@
-package com.cloudpay.recruitment;
+package com.wvillalobos.recruitment;
 
-import com.cloudpay.recruitment.UI.Menu;
+import com.wvillalobos.recruitment.UI.Menu;
 
 public class Main {
 	

@@ -1,8 +1,8 @@
-package com.cloudpay.recruitment.UI;
+package com.wvillalobos.recruitment.UI;
 
 import java.util.Scanner;
 
-import com.cloudpay.recruitment.compression.StringCompressionRle;
+import com.wvillalobos.recruitment.compression.StringCompressionRle;
 
 public class StringCompressionHandler {
 	

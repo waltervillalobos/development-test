@@ -1,4 +1,4 @@
-package com.cloudpay.recruitment.compression.exception;
+package com.wvillalobos.recruitment.compression.exception;
 
 public class InvalidFormatException extends Exception {
 	

@@ -1,9 +1,9 @@
-package com.cloudpay.recruitment.UI;
+package com.wvillalobos.recruitment.UI;
 
 import java.util.Scanner;
 
-import com.cloudpay.recruitment.compression.StringDecompressionRle;
-import com.cloudpay.recruitment.compression.exception.InvalidFormatException;
+import com.wvillalobos.recruitment.compression.StringDecompressionRle;
+import com.wvillalobos.recruitment.compression.exception.InvalidFormatException;
 
 public class StringDecompressionHandler {
 	

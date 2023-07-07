@@ -1,4 +1,4 @@
-package com.cloudpay.recruitment.UI;
+package com.wvillalobos.recruitment.UI;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;

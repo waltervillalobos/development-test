@@ -1,7 +1,9 @@
-package com.cloudpay.recruitment.compression;
+package com.wvillalobos.recruitment.compression;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+
+import com.wvillalobos.recruitment.compression.StringCompressionRle;
 
 public class StringCompressionRleTest {
 	
@@ -15,4 +17,13 @@ public class StringCompressionRleTest {
 		Assertions.assertEquals(compressedText, StringCompressionRle.process(originalText), "Compressed text successfull");
 	}
 
+	@Test
+	public void whenStringContainsMoreThanNineCharInARow() {
+		
+		String originalText = "DDDDDDDDDDDGG";
+		
+		String compressedText = "D9D2G2";
+		
+		Assertions.assertEquals(compressedText, StringCompressionRle.process(originalText), "Compressed text successfull");
+	}
 }
