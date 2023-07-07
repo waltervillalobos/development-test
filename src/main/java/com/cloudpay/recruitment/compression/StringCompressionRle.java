@@ -18,10 +18,27 @@ public class StringCompressionRle {
 			
 			int count = matcher.group().length();
 			char character = matcher.group().charAt(0);
-			compressed.append(character).append(count);
+			
+			if (count > 9) {
+				
+				String repeatText = new String(new char[]{character, '9'});
+				int duplicate = count / 9; 
+				appender(compressed,repeatText, duplicate);
+				compressed.append(character).append(count - (duplicate * 9));
+				
+			} else {
+			
+				compressed.append(character).append(count);
+			}
 		}
 		
         return compressed.toString();
 	}
+	
+    private static void appender(StringBuilder output, String text, int count) {
+        for (int j = 0; j < count; j++) {
+            output.append(text);
+        }
+    }
 
 }
